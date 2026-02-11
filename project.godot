@@ -14,10 +14,9 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="New Game Project"
+config/name="MRE_Godot_Mouse_capture_handler"
 run/main_scene="uid://mgp02mkor0at"
 config/features=PackedStringArray("4.5", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [rendering]
 
