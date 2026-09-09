@@ -1,6 +1,6 @@
 # Capturing the mouse and event propagation
  
-When you capture the InputEventMouseButton in a [Node._unhandled_input()](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-private-method-unhandled-input), the event is not passed down in the next handler ([CollisionObject3D._input_event()](https://docs.godotengine.org/en/stable/classes/class_collisionobject3d.html#class-collisionobject3d-private-method-input-event)).
+When you [capture the mouse](https://docs.godotengine.org/en/stable/classes/class_input.html#enum-input-mousemode) in an event handler (e.g, [Node._unhandled_input()](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-private-method-unhandled-input)), the event is not passed down in the next handler (e.g, [CollisionObject3D._input_event()](https://docs.godotengine.org/en/stable/classes/class_collisionobject3d.html#class-collisionobject3d-private-method-input-event)).
 
 If you want the event to continue propagating when capturing the mouse, use:
 ```
