@@ -23,7 +23,7 @@ Try it !
 clicked  
 unclicked  
 
-### Expected output when defering mouse capture
+### Expected output when deferring mouse capture
 
 clicked  
 Clicked on CharacterBody3D:<CharacterBody3D#25820136822>  
